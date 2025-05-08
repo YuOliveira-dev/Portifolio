@@ -1,0 +1,49 @@
+.projects-section h2 {
+  font-family: "Inconsolata", Courier, monospace;
+  font-size: 36px;
+  font-weight: 500;
+  color: #ff0004;
+  margin-bottom: 16px;
+}
+
+.projects-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  gap: 24px;
+  padding: 20px 0;
+}
+.projects-section{
+  padding-top: 40px;
+  padding-left: 65px;
+  display: flex;
+  flex-direction: column;
+  max-width: 1400px;
+  margin: 0 auto;
+  width: 100%;
+  min-height: 100vh;
+  max-width: 90%;
+}
+
+.projects-filters {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .filter-button {
+    
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: none;
+    background: #ddd;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .filter-button.active {
+    background: #ff0004;
+    color: white;
+    font-weight: bold;
+  }
+  

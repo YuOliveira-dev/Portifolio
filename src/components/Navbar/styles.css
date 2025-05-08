@@ -1,0 +1,52 @@
+.nav-container {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  max-width: 90%;
+  width: 1400px;
+  height: 55px;
+}
+
+#container .navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 20px;
+  margin-top: 33px;
+  gap: 33px;
+}
+
+#container .navbar .logo {
+  margin-right: auto;
+}
+
+#container .navbar button {
+  font-weight: 700;
+  padding: 8px 24px;
+  height: 33px;
+  border-radius: 12px;
+  border: none;
+  background-color: #ff0004;
+  color: white;
+  cursor: pointer;
+}
+
+/* Botões da navbar */
+#container .navbar .about {
+  width: 88px;
+}
+
+#container .navbar .projects {
+  width: 112px;
+}
+
+#container .navbar .stacks {
+  width: 96px;
+}
+
+#container .navbar .contact {
+  width: 104px;
+}
