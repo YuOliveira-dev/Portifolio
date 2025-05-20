@@ -57,15 +57,26 @@
   width: 104px;
 }
 
-.btn-mobile {
+.hamburguer {
   display: none;
+  cursor: pointer;
+
+  
+}
+.bar {
+  height: 3px;
+  width: 27px;
+  background-color: #ff0004;
+  margin: 5px 0;
+  opacity: 0.8;
 }
 
 @media screen and (max-width: 768px) {
-    .btn-mobile{
+    .hamburguer{
       display: block;
     }
       .Btn-nav{
         display: none;
       }
+      
 }
