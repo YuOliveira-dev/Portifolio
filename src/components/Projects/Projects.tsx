@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import ProjectCard from "../ProjectCard/ProjectCard";
-import { CgFigma } from "react-icons/cg";
+import { CgFigma} from "react-icons/cg";
+import { SiAdobephotoshop } from "react-icons/si";
 import "./styles.css";
 
 const Projects: React.FC = () => {
@@ -20,6 +21,18 @@ const Projects: React.FC = () => {
       category: "UX/UI",
       technologies: [{ name: "React", icon: <CgFigma /> }],
     },
+     {
+      title: "Qualquer coisa",
+      image: "./images/projects/SumUp.png",
+      category: "UX/UI",
+      technologies: [{ name: "React", icon: <SiAdobephotoshop />}], 
+  },
+  {
+      title: "Qualquer coisa",
+      image: "./images/projects/SumUp.png",
+      category: "UX/UI",
+      technologies: [{ name: "React", icon: <SiAdobephotoshop />}], 
+  },
   ];
 
   // Filtra os projetos conforme a categoria selecionada

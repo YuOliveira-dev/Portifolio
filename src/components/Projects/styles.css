@@ -1,9 +1,11 @@
 .projects-section h2 {
-  font-family: "Inconsolata", Courier, monospace;
+  font-family: "Montserrat", Courier, monospace;
   font-size: 36px;
   font-weight: 500;
   color: #ff0004;
-  margin-bottom: 16px;
+  margin-bottom: 18px;
+  
+  
 }
 
 .projects-list {
@@ -12,17 +14,20 @@
   justify-content: start;
   gap: 24px;
   padding: 20px 0;
+  margin-top: 8px;
 }
 .projects-section{
   padding-top: 40px;
   padding-left: 65px;
   display: flex;
   flex-direction: column;
-  max-width: 1400px;
+  max-width: 1440px;
   margin: 0 auto;
   width: 100%;
-  min-height: 100vh;
-  max-width: 90%;
+  min-height: 110vh;
+  max-width: 95%;
+
+  
 }
 
 .projects-filters {

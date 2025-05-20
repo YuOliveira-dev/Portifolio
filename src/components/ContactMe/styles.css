@@ -1,0 +1,77 @@
+.section-contact {
+ display: flex;
+ flex-wrap: wrap;
+ align-items: center;
+ justify-content: space-between;
+ 
+
+ width: 100%;
+ max-width: 1100px;
+
+  
+}
+
+#container-texts {
+  
+  
+  width: 440px;
+  font-family: "Moutserrat", "Courier", "Monospace";
+  color: white;
+  text-align: left;
+  padding: 18px;
+  margin-bottom: 102px;
+}
+.section-contact h1 {
+
+  color: #ff0004;
+  font-size: 48px;
+  font-weight: 700;
+}
+.section-contact h3 {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+ #form-area {
+
+  height: 439px;
+  width: 371px;
+
+  font-family: "Montserrat";
+  
+  
+ }
+
+ #form-area textarea{
+
+  display: block;
+  
+  resize: none;
+  width: 439px;
+  height: 137px;
+  border-radius: 12px;
+  padding: 18px 0px 14px 9px;
+
+  font-family: "Montserrat";
+  font-size: 16px;
+  margin-bottom: 20px;
+  
+ }
+
+ #form-area input{
+  display: block;
+  width: 439px;
+  height: 62px;
+  border-radius: 12px;
+  padding: 18px 0px 14px 9px;
+  margin-bottom: 10px;
+
+  font-family: "Montserrat";
+  font-size: 16px;
+  border: none;
+  
+ }
+
+ #form-area fieldset {
+  border: none;
+ }

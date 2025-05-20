@@ -32,6 +32,12 @@
   background-color: #ff0004;
   color: white;
   cursor: pointer;
+
+  
+}
+
+#container .navbar button:hover {
+  background-color: #cc0003;
 }
 
 /* Botões da navbar */
@@ -49,4 +55,17 @@
 
 #container .navbar .contact {
   width: 104px;
+}
+
+.btn-mobile {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .btn-mobile{
+      display: block;
+    }
+      .Btn-nav{
+        display: none;
+      }
 }

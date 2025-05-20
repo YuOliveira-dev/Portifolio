@@ -8,11 +8,14 @@ const Navbar: React.FC = () => {
 
       <nav className="navbar">
         <img className="logo" src={logo} alt="Logotipo do portfólio" />
-        <button className="about">Sobre</button>
-        <button className="projects">Projetos</button>
-        <button className="stacks">Stacks</button>
-        <button className="contact">Contato</button>
+        <button className="Btn-nav">Inicio</button>
+        <button className="Btn-nav">Projetos</button>
+        <button className="Btn-nav">Sobre</button>
+        <button className="Btn-nav">Contato</button>
+
+       
       </nav>
+      
         </div>
     );
   };

@@ -1,0 +1,42 @@
+.container {
+    font-family: "Montserrat", 'Courier New', Courier, monospace;
+    display: flex;
+    max-width: 1304px;
+    min-height: 100vh;
+    padding-top: 107px;
+    
+}
+
+.container section {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-right: 90px;
+    
+
+    min-width: 372px;
+    min-height: 384px;
+}
+
+.container section h2 {
+    margin-top: 16px;
+    font-size: 40px;
+    color: #FF0004;
+    text-shadow: #1818182c -5px 5px 4px;
+}
+
+.container section p {
+    font-size: 24px;
+    color: white;
+}
+
+
+.container section img {
+   
+    transform: translateX(-10%);
+
+}
+
+.container #secondary{
+    margin-top: 6px;
+}

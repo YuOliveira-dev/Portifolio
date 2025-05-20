@@ -5,12 +5,12 @@
 }
 
 #container {
-  font-family: "Inconsolata", Courier, monospace;
+  font-family: "Montserrat", Courier, monospace;
   position: relative;
   display: flex;
   justify-content: space-between;
 
-  height: 635px;
+  height: 860px;
   width: 100%;
   background-color: rgb(32, 32, 32);
 }
@@ -18,7 +18,7 @@
 #container .background {
   position: absolute;
   width: 100%;
-  height: 635px;
+  height: 100%;
 }
 
 #container .texts {
@@ -34,8 +34,8 @@
 
   color: white;
   width: 80%;
-  max-width: 650px;
   gap: 14px;
+  max-width: 715px;
 }
 
 .first-text {
@@ -67,6 +67,7 @@
   border: none;
   border-radius: 8px;
   cursor: pointer;
+  margin-top: 6px;
   
 }
 #container .contact-button:hover {
