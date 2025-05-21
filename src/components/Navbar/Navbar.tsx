@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import "./styles.css";
-import logo from "../Header/assets/Logo.png"
 import CompactMenu from "../CompactMenu/CompactMenu";
 
 function Navbar() {
@@ -8,32 +7,40 @@ function Navbar() {
 
   useEffect(() => {
     const handleResize = () => setIsMobile(window.innerWidth < 768);
-    window.addEventListener('resize', handleResize);
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
   }, []);
 
-    return (
-
-
-      <div className="nav-container">
-      
-          <nav className="navbar">
-        <img className="logo" src={logo} alt="Logotipo do portfólio" />
-        
-        <button className="Btn-nav">Inicio</button>
-        <button className="Btn-nav">Projetos</button>
-        <button className="Btn-nav">Sobre</button>
-        <button className="Btn-nav">Contato</button>
-
+  return (
+    <div className="nav-container">
+      {!isMobile && (
+        <nav className="navbar-desk">
+          <img src="./images/projects/Logo.png" alt="navbar logo" />
+          <div className="nav-list">
+            <ul>
+              <a href="./">
+                <li>Projetos</li>
+              </a>
+              <a href="./">
+                <li>Sobre Mim</li>
+              </a>
+              <a href="./">
+                <li>Stacks</li>
+              </a>
+              <a href="./">
+                <li>Contact me</li>
+              </a>
+            </ul>
+          </div>
+        </nav>
+      )}
+      ;
       {isMobile && (
 
-        <CompactMenu />
-        
-      )};
-       
-      </nav>
-      
-        </div>
-    );
-  };
+       <CompactMenu  />
+      )}
+    </div>
+  );
+}
 
-  export default Navbar
+export default Navbar;

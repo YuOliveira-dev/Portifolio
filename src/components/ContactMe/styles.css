@@ -1,77 +1,99 @@
 .section-contact {
- display: flex;
- flex-wrap: wrap;
- align-items: center;
- justify-content: space-between;
- 
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
 
- width: 100%;
- max-width: 1100px;
-
-  
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 40px 20px;
 }
 
 #container-texts {
-  
-  
-  width: 440px;
-  font-family: "Moutserrat", "Courier", "Monospace";
+  width: 100%;
+  max-width: 510px;
+  font-family: "Montserrat", "Courier", "Monospace";
   color: white;
   text-align: left;
-  padding: 18px;
-  margin-bottom: 102px;
+  padding: 32px;
+  
 }
-.section-contact h1 {
 
+.section-contact h1 {
   color: #ff0004;
+  margin-bottom: 18px;
   font-size: 48px;
-  font-weight: 700;
+  font-weight: 500;
 }
+
 .section-contact h3 {
   font-size: 24px;
-  font-weight: 400;
+  font-weight: 200;
 }
 
- #form-area {
-
-  height: 439px;
-  width: 371px;
-
+#form-area {
+  width: 100%;
+  max-width: 470px;
   font-family: "Montserrat";
   
   
- }
+}
 
- #form-area textarea{
-
+#form-area textarea,
+#form-area input {
   display: block;
-  
-  resize: none;
-  width: 439px;
-  height: 137px;
+  width: 470px;
+  max-width: 100%;
+  box-sizing: border-box;
   border-radius: 12px;
-  padding: 18px 0px 14px 9px;
-
+  padding: 18px 12px;
   font-family: "Montserrat";
   font-size: 16px;
   margin-bottom: 20px;
-  
- }
-
- #form-area input{
-  display: block;
-  width: 439px;
-  height: 62px;
-  border-radius: 12px;
-  padding: 18px 0px 14px 9px;
-  margin-bottom: 10px;
-
-  font-family: "Montserrat";
-  font-size: 16px;
   border: none;
+  resize: none;
   
- }
+  box-shadow: 0px 0px 12px 2px rgba(0, 0, 0, 0.349);;
+}
+#form-area .btn-submit {
+  background-color: #ff0004;
+  font-size: 17px ;
+  font-weight: 500;
+  color: white;
+}
+#form-area textarea{
+  height: 120px;
+}
 
- #form-area fieldset {
+#form-area .formContact .form-itens {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
   border: none;
- }
+}
+
+
+
+@media (max-width: 768px) {
+  .section-contact {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  #container-texts {
+    text-align: center;
+    padding: 16px;
+  }
+
+  #form-area  {
+    
+    margin: 0px;
+  }
+  #form-area input,
+  #form-area textarea {
+    width: 440px;
+  }
+}

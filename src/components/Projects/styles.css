@@ -17,8 +17,7 @@
   margin-top: 8px;
 }
 .projects-section{
-  padding-top: 40px;
-  padding-left: 65px;
+  padding: 24px;
   display: flex;
   flex-direction: column;
   max-width: 1440px;
@@ -50,5 +49,11 @@
     background: #ff0004;
     color: white;
     font-weight: bold;
+  }
+
+  @media (max-width: 768px) {
+    .projects-section {
+      align-items: center;
+    } 
   }
   

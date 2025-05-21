@@ -3,7 +3,7 @@ import "./styles.css";
 function Stacks() {
   return (
     <div className="container">
-      <section id="primary">
+      <section id="text-section">
         <img src="./images/projects/pen-icon.png" alt="icon pen" />
         <h2>Title</h2>
         <p>
@@ -12,7 +12,7 @@ function Stacks() {
           totam aspernatur ut dolores consequatur 
         </p>
       </section>
-      <section id="secondary">
+      <section id="text-section">
         <img src="./images/projects/code-icon.png" alt="code icon" /><br />
         <h2>Title</h2>
         <p>
@@ -21,7 +21,7 @@ function Stacks() {
           totam aspernatur ut dolores consequatur 
         </p>
       </section>
-      <section id="third">
+      <section id="text-section">
         <img src="./images/projects/brush-icon.png" alt="brush icon" /><br />
         <h2>Title</h2>
         <p>

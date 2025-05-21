@@ -21,7 +21,7 @@ const Header: React.FC = () => {
           <h2 className="third-text">FullStack em constante aprendizado!</h2>
           <button className="contact-button">Contact me</button>
         </div>
-        <div className="socials"></div>
+        
       </header>
     </div>
   );

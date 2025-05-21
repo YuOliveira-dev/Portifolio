@@ -1,0 +1,107 @@
+.navbar{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 768px;
+  max-width: 100%;
+  padding: 0 24px;
+  z-index: 1;
+
+}
+.navbar .hamburger{
+
+  font-size: 2rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #ff0004;
+
+}
+
+.navbar .menu{
+
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  top: 0;
+  right: 0;
+  width: 260px;
+  height: 100vh;
+  background-color: rgb(54, 54, 54);
+  box-shadow: -6px 0 6px rgba(241, 23, 23, 0.034);
+  transform: translateX(0%);
+  transition: transform 0.8s ease-in-out;
+  z-index: 1;
+  padding: 1rem;
+}
+
+
+.mobile-list li {
+  padding: 10px;
+  margin: 10px;
+  color: #ff0004;
+}
+
+
+.menuclose{ 
+    
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100vh;
+  max-width: 260px;
+  background-color: rgb(54, 54, 54);
+  box-shadow: -6px 0 6px rgba(241, 23, 23, 0.034);
+  transform: translateX(100%);
+  transition: transform 0.8s ease-in-out;
+  z-index: 1;
+  padding: 1rem;
+}
+
+.close {
+  display: flex;
+  margin-bottom: 1rem;
+  background: none;
+  color: #ff0004;
+  font-size: 2.5rem;
+  padding: 5px 0 0 38px;
+  margin-left: 70%;
+  width: 100%;
+  cursor: pointer;
+  border: none;
+}
+
+.mobile-list li a {
+  color: #ff0004;
+  text-decoration: none;
+}
+
+
+.mobile-list li a:hover {
+  color: #a70003;
+  transition: 0.4s;
+}
+
+
+.navbar .sideClose{
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.0);
+  width: 480px;
+  
+  height: 100%;
+  align-items: center;
+  transform: translateX(-103%);
+  transition: transform 0.9s ease-in-out;
+  top: 0;
+  
+  z-index: -1;
+}
+
+.isClose{
+
+  transform: translateX(0);
+}

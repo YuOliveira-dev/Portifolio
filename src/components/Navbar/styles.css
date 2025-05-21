@@ -1,82 +1,43 @@
-.nav-container {
+.nav-container .navbar-desk {
   position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
   display: flex;
-  align-items: center;
-  max-width: 90%;
-  width: 1400px;
-  height: 55px;
+  width: 1440px;
+  height: 54px;
+  max-width: 100%;
+  padding: 0 48px;
+  justify-content: space-between;
+  left: 50%;
+  margin-top: 40px;
+  transform: translate(-50%, -50%);
+  
 }
 
-#container .navbar {
+.navbar-desk .nav-list ul {
+  width: 480px;
+  max-width: 100%;
+  margin-top: 23px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 100%;
-  padding: 0 20px;
-  margin-top: 33px;
-  gap: 33px;
-}
-
-#container .navbar .logo {
-  margin-right: auto;
-}
-
-#container .navbar button {
-  font-weight: 700;
-  padding: 8px 24px;
-  height: 33px;
-  border-radius: 12px;
-  border: none;
-  background-color: #ff0004;
-  color: white;
-  cursor: pointer;
-
   
-}
-
-#container .navbar button:hover {
-  background-color: #cc0003;
-}
-
-/* Botões da navbar */
-#container .navbar .about {
-  width: 88px;
-}
-
-#container .navbar .projects {
-  width: 112px;
-}
-
-#container .navbar .stacks {
-  width: 96px;
-}
-
-#container .navbar .contact {
-  width: 104px;
-}
-
-.hamburguer {
-  display: none;
-  cursor: pointer;
-
   
-}
-.bar {
-  height: 3px;
-  width: 27px;
-  background-color: #ff0004;
-  margin: 5px 0;
-  opacity: 0.8;
+
+ 
 }
 
-@media screen and (max-width: 768px) {
-    .hamburguer{
-      display: block;
-    }
-      .Btn-nav{
-        display: none;
-      }
-      
+nav li {
+  font-size: 18px;
+  font-weight: 500;
+  text-shadow: #0000004d -5px 4px 11px;
+  list-style-type: none;
+}
+
+.nav-list a {
+  color: #ff0004;
+  text-decoration: none;
+}
+
+.nav-list a:hover {
+  color: #c00104;
+  transition: 0.4s;
 }
