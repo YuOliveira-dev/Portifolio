@@ -12,10 +12,10 @@ function ContactMe() {
           <fieldset className="form-itens">
             
           <label htmlFor="fname"></label>
-          <input type="text" id="fname" name="fname" placeholder="Seu Nome"/>
+          <input type="text" id="fname" name="fname" placeholder="Seu Nome:"/>
           
           <label htmlFor="email"></label>
-          <input type="text" id="email" name="email" placeholder="Digite seu e-mail" />
+          <input type="text" id="email" name="email" placeholder="Digite seu e-mail:" />
           
           <label htmlFor="msg"></label><textarea name="msg" id="mensagem" placeholder="Digite sua Mensagem: " rows={8} cols={35}></textarea>
           <input className="btn-submit" type="submit" value="Enviar" />

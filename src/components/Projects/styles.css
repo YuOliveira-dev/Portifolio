@@ -4,6 +4,7 @@
   font-weight: 500;
   color: #ff0004;
   margin-bottom: 18px;
+  text-shadow: #0000004d -5px 4px 11px;
   
   
 }
@@ -20,7 +21,7 @@
   padding: 24px;
   display: flex;
   flex-direction: column;
-  max-width: 1440px;
+  max-width: 14px;
   margin: 0 auto;
   width: 100%;
   min-height: 110vh;
@@ -40,7 +41,7 @@
     padding: 8px 16px;
     border-radius: 8px;
     border: none;
-    background: #ddd;
+    background: #ff000480;
     cursor: pointer;
     transition: 0.3s;
   }

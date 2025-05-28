@@ -5,8 +5,8 @@ function AboutMe() {
     return(
        <div className="container-text">
         <section id="primary-text">
-            <h2>Design</h2>
-            <p>I'm probably not the typical designer positioned behind an Illustrator artboard adjusting pixels, but I design. Immersed in stylesheets tweaking font sizes and contemplating layouts is where you'll find me (~_^). I'm committed to creating fluent user experiences while staying fashionable.</p>
+            <h2 className="title">Design</h2>
+            <p className="text-1">I'm probably not the typical designer positioned behind an Illustrator artboard adjusting pixels, but I design. Immersed in stylesheets tweaking font sizes and contemplating layouts is where you'll find me (~_^). I'm committed to creating fluent user experiences while staying fashionable.</p>
         </section>
         
             <section id="secondary-text">

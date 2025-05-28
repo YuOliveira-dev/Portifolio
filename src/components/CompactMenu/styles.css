@@ -37,13 +37,6 @@
 }
 
 
-.mobile-list li {
-  padding: 10px;
-  margin: 10px;
-  color: #ff0004;
-}
-
-
 .menuclose{ 
     
   position: fixed;
@@ -75,18 +68,6 @@
   border: none;
 }
 
-.mobile-list li a {
-  color: #ff0004;
-  text-decoration: none;
-}
-
-
-.mobile-list li a:hover {
-  color: #a70003;
-  transition: 0.4s;
-}
-
-
 .navbar .sideClose{
   position: absolute;
   background-color: rgba(0, 0, 0, 0.0);
@@ -104,4 +85,11 @@
 .isClose{
 
   transform: translateX(0);
+}
+
+.navbar .mobile-list .nav-mobile-item {
+  color: #ff0004;
+  text-decoration: none;
+  margin: 20px;
+  cursor: pointer;
 }

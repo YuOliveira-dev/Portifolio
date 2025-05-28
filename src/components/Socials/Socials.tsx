@@ -10,17 +10,17 @@ function Socials() {
             <ul>
                 <a href="https://www.linkedin.com/in/yuri-carvalho-de-oliveira/" >
                     <li className="icon">
-                        <BsLinkedin color="#000" size={40}  />
+                        <BsLinkedin color="#ff000476" size={40}  />
                     </li>
                 </a>
                  <a href="https://github.com/YuOliveira-dev">
                     <li className="icon">
-                        <FaGithubSquare color="#000" size={40}/>
+                        <FaGithubSquare color="#ff000476" size={40}/>
                     </li>
                 </a>
                  <a  href="https://medium.com/@carvalhoyc">
                     <li className="icon">
-                        <SiMedium color="#000" size={40}/>
+                        <SiMedium color="#ff000476" size={40}/>
                     </li>
                 </a>
             </ul>

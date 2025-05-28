@@ -35,7 +35,7 @@ const Projects: React.FC = () => {
   },
   ];
 
-  // Filtra os projetos conforme a categoria selecionada
+ 
   const filteredProjects =
     selectedCategory === "todos"
       ? projects

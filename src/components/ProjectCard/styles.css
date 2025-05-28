@@ -9,7 +9,7 @@
     overflow: hidden;
     transition: transform 0.5s ease;
     width: 100%;
-    max-width: 537px;
+    max-width: 520px;
   }
   
   .project-card:hover {
