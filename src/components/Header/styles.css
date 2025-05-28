@@ -7,6 +7,7 @@
 #container {
   font-family: "Montserrat", Courier, monospace;
   position: relative;
+
   display: flex;
   justify-content: space-between;
 
@@ -38,12 +39,6 @@
   max-width: 715px;
 }
 
-.first-text {
-  color: #ff0004;
-  font-size: 24px;
-  font-weight: 400;
-}
-
 .second-text,
 .third-text {
   color: #edeeed;
@@ -57,22 +52,59 @@
 
 #container .contact-button {
   font-family: "Montserrat";
-  font-weight: 400;
+  font-weight: 500;
   color: #edeeed;
   background-color: #ff0004;
 
   width: 216px;
   max-width: 100%;
-  height: 36px;
+  height: 38px;
   font-size: 16px;
   border: none;
-  border-radius: 8px;
+  border-radius: 12px;
   padding: 8px 16px;
   cursor: pointer;
   margin-top: 12px;
+  box-shadow: 0 0 16px  #ff000454;
   
 }
 #container .contact-button:hover {
   background-color: #cc0003;
 }
 
+.txt-animation {
+  font-family: "Montserrat";
+  display: block;
+  color: #ff0004;
+  font-size: 24px;
+  font-weight: 400;
+
+  border-right: 2.5px solid #ff0004;
+  white-space: nowrap;
+
+  width: 0;
+  overflow: hidden;
+
+  animation: mark .5s step-end infinite, write 8s steps(22, end) infinite;
+}
+
+@keyframes mark {
+  50%{
+    border-right-color: transparent;
+  }
+}
+
+@keyframes write {
+    20%{
+      width: 15ch;
+    }
+    70%{
+      width: 15ch;
+    }
+    85%{
+      width: 0;
+    }
+    100%{
+      width: 0;
+    }
+}

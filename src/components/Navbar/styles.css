@@ -1,5 +1,5 @@
 .nav-container .navbar-desk {
-  position: fixed;
+  position:absolute;
   display: flex;
   width: 1440px;
   height: 54px;

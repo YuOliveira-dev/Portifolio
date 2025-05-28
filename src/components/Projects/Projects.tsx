@@ -42,6 +42,7 @@ const Projects: React.FC = () => {
       : projects.filter((project) => project.category === selectedCategory);
 
   return (
+    
     <section className="projects-section">
       <h2 className="projects-title">Projetos</h2>
 

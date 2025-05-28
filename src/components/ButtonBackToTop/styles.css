@@ -1,0 +1,36 @@
+.backToTopContainer{ 
+    position: fixed;
+    bottom: 10px;
+    right: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 148px;
+    height: 71px;
+    z-index: 1001;
+}
+.buttonBackToTop{
+    cursor: pointer;
+}
+
+
+.isClosed {
+    display: none;
+}
+
+.isClosedNo {
+    opacity: 1;
+    font-family: "Montserrat";
+    color: white;
+    font-weight: 400;
+    text-shadow: 0px 1px 9px rgba(255, 255, 255, 0.747);
+    
+} 
+
+@media(max-width: 768px) {
+    .backToTopContainer{
+        display: none;
+    }
+}
+

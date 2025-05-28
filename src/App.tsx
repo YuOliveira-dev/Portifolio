@@ -8,6 +8,7 @@ import FloatingElements from "./components/FloatingElements/FloatingElements";
 import { Element } from "react-scroll";
 
 import "./index.css";
+import BackToTop from "./components/ButtonBackToTop/BackToTop";
 
 const App: React.FC = () => {
   return (
@@ -15,7 +16,8 @@ const App: React.FC = () => {
       <div style={{ position: "absolute", width: "100%", height: "100vh" }}>
         <FloatingElements />
       </div>
-      <Header />
+        <Header />
+      
       <Element name="secao1">
         <Projects />
       </Element>
@@ -29,6 +31,7 @@ const App: React.FC = () => {
         <ContactMe />
       </Element>
       <Socials />
+      <BackToTop />
     </div>
   );
 };
