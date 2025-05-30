@@ -20,11 +20,9 @@ function FloatingElements() {
                         </div>
                             <div className="element-6">
                             <img src="./images/projects/Elements/Element-6.png" alt="" />
-                                <img src="" alt="" />
+                               
                             </div>
-                                <div className="element-7">
-                                    <img src="" alt="" />
-                                </div>
+                                
     </div>
   );
 }
