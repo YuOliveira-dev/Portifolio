@@ -33,7 +33,7 @@ Este projeto está em constante evolução. Algumas funcionalidades previstas:
 ## 📁 Como rodar localmente
 
 ```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
-cd seu-repositorio
+git clone https://github.com/YuOliveira-dev/Portifolio.git
+cd Portifolio
 npm install
 npm run dev
