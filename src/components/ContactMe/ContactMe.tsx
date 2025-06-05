@@ -1,48 +1,112 @@
 import { useForm } from "react-hook-form";
 import "./styles.css";
+import { toast, ToastContainer, Bounce } from "react-toastify";
 
 function ContactMe() {
-
   interface FormData {
-    fname: string;
+    nome: string;
     email: string;
-    msg: string;
+    mensagem: string;
   }
 
-  const { register, handleSubmit } = useForm<FormData>({
-    mode: 'onBlur'
-  });
+  const {
+    register,
+    formState: { errors },
+    handleSubmit,
+    reset,
+  } = useForm<FormData>();
+  const onSubmit = async (data: FormData) => {
+    try {
+      const response = await fetch("http://localhost:3001/api/contato", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(data),
+      });
 
-  const onSubmit = (data: FormData) => {
-  
-    console.log(data)
-  }
-  // const schema = z.object({
-  //   name: z.string().min(3, 'Por favor, informe um nome válido')
-  //   email: z.string().min(3, 'Por favor, informe um email válido')
-  //   msg: z.string().min(3, 'Por favor, informe uma mensagem válida')
-  // })
+      if (response.ok) {
+        toast.success("Dados enviados com sucesso");
+        reset();
+      }
+    } catch (error) {
+      toast.error("Erro no envio do formulário, revise seus dados e tente novamente");
+    }
+  };
 
   return (
     <section className="section-contact">
       <div id="container-texts">
         <h1>Entre em contato!</h1>
-        <h3>Entre em contato e vamos conversar, estou aberto a qualquer tipo de conversa, seja sobre trabalho ou alguma dica construtiva!</h3>
+        <h3>
+          Entre em contato e vamos conversar, estou aberto a qualquer tipo de
+          conversa, seja sobre trabalho ou alguma dica construtiva!
+        </h3>
       </div>
       <div id="form-area">
         <form className="formContact" onSubmit={handleSubmit(onSubmit)}>
           <fieldset className="form-itens">
-            
-          <label htmlFor="fname"></label>
-          <input type="text" id="fname" {...register("fname")} placeholder="Seu Nome:"/>
-          
-          <label htmlFor="email"></label>
-          <input type="text" id="email" {...register("email")} placeholder="Digite seu e-mail:" />
-          
-          <textarea id="mensagem" {...register("msg")} placeholder="Digite sua Mensagem: " rows={8} cols={35}></textarea>
-          <input className="btn-submit" type="submit" value="Enviar" />
+            <label htmlFor="fname"></label>
+            {errors.nome && (
+              <p className={errors.nome ? "inputerror" : ""}>
+                Escreva um nome válido
+              </p>
+            )}
+            <input
+              type="text"
+              id="fname"
+              {...register("nome", {
+                required: true,
+                minLength: {
+                  value: 3,
+                  message: "O nome deve conter ao menos 3 letras",
+                },
+              })}
+              aria-invalid={errors.email ? "true" : "false"}
+              placeholder="Seu Nome:"
+            />
+
+            <label htmlFor="email"></label>
+            {errors.email && (
+              <p className={errors.email ? "inputerror" : ""} role="email">
+                Escreva um e-mail válido
+              </p>
+            )}
+            <input
+              type="text"
+              id="email"
+              {...register("email", {
+                required: "Email adress is required",
+                pattern: {
+                  value: /^\S+@\S+$/i,
+                  message: "email invalido",
+                },
+              })}
+              aria-invalid={errors.email ? "true" : "false"}
+              placeholder="Digite seu e-mail:"
+            />
+
+            <textarea
+              id="mensagem"
+              {...register("mensagem")}
+              placeholder="Digite sua Mensagem: "
+              rows={8}
+              cols={35}
+            ></textarea>
+            <input className="btn-submit" type="submit" value="Enviar" />
           </fieldset>
         </form>
+        <ToastContainer
+          position="bottom-right"
+          autoClose={3000}
+          hideProgressBar={false}
+          newestOnTop={false}
+          closeOnClick={false}
+          rtl={false}
+          pauseOnFocusLoss
+          draggable
+          pauseOnHover
+          theme="dark"
+          transition={Bounce}
+        />
       </div>
     </section>
   );

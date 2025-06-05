@@ -15,7 +15,7 @@ function CompactMenu() {
 
     return(
         <nav className="navbar">
-                <img src="./images/projects/Logo.png" alt="logo png" />
+                <img src="./images/Logo.webp" alt="logo png" />
                      <button className="hamburger" onClick={()=> setIsOpen(!isOpen)}>☰</button>
 
            <div className={`menu${isOpen ? 'close' : ''}`} >

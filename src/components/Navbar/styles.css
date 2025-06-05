@@ -35,6 +35,7 @@ nav li {
 .nav-list a {
   color: #ff0004;
   text-decoration: none;
+  cursor: pointer;
 }
 
 .nav-list a:hover {

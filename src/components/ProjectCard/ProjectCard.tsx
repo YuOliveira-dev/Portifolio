@@ -1,33 +1,38 @@
 import React from "react";
 import "./styles.css"
+import { Link } from 'react-router-dom'
+ 
 
 interface ProjectCardProps {
+  id: string;
   title: string;
   image: string;
-  technologies: { name: string; icon: React.ReactNode }[];
+  path: string;
+ 
 }
 
 const ProjectCard: React.FC<ProjectCardProps> = ({
+  id,
   title,
   image,
-  technologies,
+  path,
+  
 }) => {
   return (
     <div className="project-card">
-      <img src={image} alt={title} className="project-image" />
+      
+      <img src={image} alt={title} id={id} className="project-image" />
+      
 
       <div className="project-info">
         <h3 className="project-title">{title}</h3>
+        <Link to={`/projects/${path}`} onClick={()=>window.scrollTo(0, 0)} className="btn-to-page">Ver mais</Link>
 
-        <div className="project-techs">
-          {technologies.map((tech, index) => (
-            <div key={index} className="project-tech">
-              {tech.icon}
-            </div>
-          ))}
+        
+          
         </div>
       </div>
-    </div>
+    
   );
 };
 

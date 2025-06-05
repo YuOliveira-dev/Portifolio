@@ -49,7 +49,7 @@
   width: 470px;
   max-width: 100%;
   box-sizing: border-box;
-  border-radius: 12px;
+  border-radius: 2px;
   padding: 18px 12px;
   font-family: "Montserrat";
   font-size: 16px;
@@ -64,6 +64,10 @@
   font-size: 17px ;
   font-weight: 500;
   color: white;
+  cursor: pointer;
+}
+#form-area .btn-submit:hover{
+  background-color: #ff0004ab
 }
 #form-area textarea{
   height: 120px;
@@ -73,7 +77,17 @@
   display: flex;
   flex-direction: column;
   width: 100%;
+  max-width: 440px;
   border: none;
+}
+
+ .formContact .inputerror {
+  padding: 8px;
+  width: 100%;
+  max-width: 470px;
+  border-radius: 1px;
+  background-color: #ffe6e6;
+  color: red;
 }
 
 
@@ -98,4 +112,5 @@
   #form-area textarea {
     width: 440px;
   }
+    
 }

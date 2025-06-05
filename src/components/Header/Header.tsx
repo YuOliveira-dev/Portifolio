@@ -1,7 +1,8 @@
 import "./styles.css";
-import Background from "./assets/Back-header.png";
+import Background from "./assets/Back-header.webp";
 import Navbar from "../Navbar/Navbar";
 import { scroller, Link, Element } from "react-scroll";
+
 
 function Header() {
   const scrollToSection = (sectionName: string) => {
@@ -28,7 +29,7 @@ function Header() {
           <div className="txt-animation">Olá, eu sou o Yuri ✌</div>
           <h1 className="second-text">Designer e desenvolvedor</h1>
           <h2 className="third-text">FullStack em constante aprendizado!</h2>
-          <Link to="secao4">
+          <Link href="#" to="secao4" smooth={true} duration={500}>
           <button onClick={()=>{scrollToSection('secao4')}} className="contact-button">Entre em contato!</button>
           </Link>
           

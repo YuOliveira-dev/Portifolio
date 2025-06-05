@@ -1,0 +1,20 @@
+.nav-container-to-page{
+    width: 100%;
+    max-width: 890px;
+    padding: 24px;
+    
+}
+
+.nav-container-to-page .navbar-desk-to-page{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-container-to-page .navbar-desk-to-page .button-nav-to-page{
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-family: "Montserrat";
+    font-weight: 500;
+    gap: 8px;
+}

@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 import ProjectCard from "../ProjectCard/ProjectCard";
-import { CgFigma} from "react-icons/cg";
-import { SiAdobephotoshop } from "react-icons/si";
 import "./styles.css";
 
 const Projects: React.FC = () => {
@@ -10,28 +8,40 @@ const Projects: React.FC = () => {
   // Lista de projetos
   const projects = [
     {
+      id: "1",
       title: "Redesign Itaú",
-      image: "./images/projects/Thumb-itau.png",
+      image: "./images/projects/Thumb-itau.webp",
       category: "UX/UI",
-      technologies: [{ name: "Figma", icon: <CgFigma /> }],
+      path: "redesign-itau"
+      
+     
     },
     {
+      id: "2",
       title: "Pix Na SumUp",
-      image: "./images/projects/SumUp.png",
+      image: "./images/projects/SumUp.webp",
       category: "UX/UI",
-      technologies: [{ name: "React", icon: <CgFigma /> }],
+      path: "pix-na-sumUp"
+      
+      
     },
      {
+      id: "3",
       title: "Qualquer coisa",
-      image: "./images/projects/SumUp.png",
+      image: "./images/projects/SumUp.webp",
       category: "UX/UI",
-      technologies: [{ name: "React", icon: <SiAdobephotoshop />}], 
+      path: "/"
+     
+       
   },
   {
+      id: "4",
       title: "Qualquer coisa",
-      image: "./images/projects/SumUp.png",
+      image: "./images/projects/SumUp.webp",
       category: "UX/UI",
-      technologies: [{ name: "React", icon: <SiAdobephotoshop />}], 
+      path: "/"
+      
+      
   },
   ];
 
@@ -47,7 +57,7 @@ const Projects: React.FC = () => {
       <h2 className="projects-title">Projetos</h2>
 
       <div className="projects-filters">
-        {["todos", "UX/UI", "desenvolvimento"].map((category) => (
+        {["todos", "UX/UI", "Desenvolvimento"].map((category) => (
           <button
             key={category}
             onClick={() => setSelectedCategory(category)}

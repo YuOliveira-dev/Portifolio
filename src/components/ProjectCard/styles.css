@@ -9,7 +9,7 @@
     overflow: hidden;
     transition: transform 0.5s ease;
     width: 100%;
-    max-width: 520px;
+    max-width: 420px;
   }
   
   .project-card:hover {
@@ -37,13 +37,20 @@
     margin-bottom: 8px;
   }
   
-  .project-techs {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
+  .btn-to-page {
+    font-family: "Montserrat";
+    font-size: 12px;
+    text-decoration: none;
+    align-items: center;
+    width: 92px;
+    padding: 8px;
+    border-radius: 8px;
+    height: 32px;
+    background-color: #ff000470;
+    color: white;
   }
-  
-  .project-tech {
-    font-size: 24px;
-    
+
+  .btn-to-page:hover{
+    background-color: #ff0004;
+    transition: 0.9s;
   }

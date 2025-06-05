@@ -4,22 +4,22 @@ function FloatingElements() {
   return (
     <div className="container-elements">
         <div className="element-1">
-            <img src="./images/projects/Elements/Element-1.png" alt="" />
+            <img src="./images/Elements/Element-1.webp" alt="Element floating" />
         </div>
             <div className="element-2">
-                <img src="./images/projects/Elements/Element-2.png" alt="" />
+                <img src="./images/Elements/Element-2.webp" alt="Element floating" />
             </div>
                 <div className="element-3">
-                    <img src="./images/projects/Elements/Element-3.png" alt="" />
+                    <img src="./images/Elements/Element-3.webp" alt="Element floating" />
                 </div>
                     <div className="element-4">
-                        <img src="./images/projects/Elements/Element-4.png" alt="" />
+                        <img src="./images/Elements/Element-4.webp" alt="Element floating" />
                     </div>
                         <div className="element-5">
-                            <img src="./images/projects/Elements/Element-5.png" alt="" />
+                            <img src="./images/Elements/Element-5.webp" alt="Element floating" />
                         </div>
                             <div className="element-6">
-                            <img src="./images/projects/Elements/Element-6.png" alt="" />
+                            <img src="./images/Elements/Element-6.webp" alt="Element floating" />
                                
                             </div>
                                 
