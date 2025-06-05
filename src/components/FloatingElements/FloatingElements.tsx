@@ -18,10 +18,7 @@ function FloatingElements() {
                         <div className="element-5">
                             <img src="./images/Elements/Element-5.webp" alt="Element floating" />
                         </div>
-                            <div className="element-6">
-                            <img src="./images/Elements/Element-6.webp" alt="Element floating" />
-                               
-                            </div>
+                        
                                 
     </div>
   );

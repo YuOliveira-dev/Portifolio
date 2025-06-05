@@ -28,24 +28,24 @@ function Navbar() {
           <div className="nav-list">
             <ul>
               <Link href="#" to="secao1" smooth={true} duration={500}>
-              <a href="#">
+              
                 <li onClick={()=>{scrollToSection('secao1')}}>Projetos</li>
-              </a>
+              
               </Link>
               <Link href="#" to="secao2" smooth={true} duration={500}>
-              <a href="#">
+              
                 <li onClick={() =>{scrollToSection('secao2')}}>Sobre Mim</li>
-              </a>
+              
               </Link>
               <Link href="#" to="secao3" smooth={true} duration={500}>
-              <a href="#">
+              
                 <li onClick={()=>{scrollToSection('secao3')}}>Stacks</li>
-              </a>
+             
               </Link>
               <Link href="#" to="secao4" smooth={true} duration={500}>
-              <a href="#">
+              
                 <li onClick={()=>{scrollToSection('secao4')}}>Contact me</li>
-              </a>
+              
               </Link>
             </ul>
           </div>

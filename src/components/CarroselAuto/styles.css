@@ -5,12 +5,10 @@
     overflow: hidden;
     
     
-    
 }
 
 .container-carrosel .container-images-carrosel{
     position: relative;
-    
 }
 
 .container-carrosel .container-images-carrosel .item {
@@ -27,6 +25,7 @@
     }
     to{
         left: -50px;
+        opacity: 70%;
     }
 }
 

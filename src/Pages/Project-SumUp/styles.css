@@ -1,0 +1,85 @@
+.containerProjectSumUp{
+    font-family: 'Montserrat';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url('../public/images/background/background-pages.webp');
+    background-size: cover;
+    
+}
+
+
+.thumSumUp{
+     display: flex;
+    width: 100%;
+    max-width: 920px;
+    height: 100%;
+    max-height: 640px;
+    gap: 16px;
+    padding: 32px;
+}
+
+.sec-1-sumup,
+.sec-2-sumup{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 920px;
+    align-items: right;
+    background: none;
+    margin: 24px;
+
+}
+
+.t-1-sumup,
+.t-2-sumup{
+    font-size: 38px;
+    color: #0150b8;
+    text-shadow: -2px 3px 8px #000000a9;
+    background: none;
+    margin-left: 24px;
+    margin-right: 24px;
+    font-weight: 600;
+    
+    
+    
+}
+
+.p-1-sumup,
+.p-2-sumup{
+     font-size: 24px;
+    color: white;
+    background: none;
+    margin-left: 24px;
+    margin-right: 24px;
+    font-weight: 300;
+    height: 100%; 
+    margin-top: 24px;
+}
+
+.sectionTextsSumUp{
+   display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 920px;
+    height: 100%;
+    align-items: center;
+    gap: 80px;
+    background: none;
+    margin: 24px;
+    
+}
+
+.btn-to-f-sum-up{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    margin: 20px;
+}
+
+.spn-to-f-sum-up{
+    text-decoration: underline;
+    color: #008cff;
+    text-shadow: 5px 1px 12px rgba(0, 0, 0, 0.486);
+}

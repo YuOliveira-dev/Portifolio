@@ -27,7 +27,7 @@ function ProjetoItau() {
           </p>
         </div>
       </div>
-        <a className="link-to-article" href="#">
+        <a target="_blank" className="link-to-article" href="https://medium.com/@carvalhoyc/projeto-de-parceria-itaú-ebac-c8a48dada439">
           Se interessou pelo conteúdo ? <span className="span-article">leia o artigo completo!</span>
         </a>
       <div className="stacks"></div>

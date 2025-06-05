@@ -9,6 +9,7 @@ import { Element } from "react-scroll";
 
 import "./index.css";
 import BackToTop from "./components/ButtonBackToTop/BackToTop";
+import Carrosel from "./components/CarroselAuto/Carrosel";
 
 const App: React.FC = () => {
   return (
@@ -27,6 +28,7 @@ const App: React.FC = () => {
       <Element name="secao3">
         <Stacks />
       </Element>
+      <Carrosel />
       <Element name="secao4">
         <ContactMe />
       </Element>

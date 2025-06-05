@@ -50,13 +50,6 @@
   margin: 0 auto;
 }
 
-.container-elements .element-6 {
-  position: absolute;
-  top: 3620px;
-  right: 59px;
-  z-index: 1;
-  margin: 0 auto;
-}
 
 @media (max-width: 1221px) {
     .container-elements {
@@ -64,8 +57,7 @@
     }
 }
 @media (max-width: 1462px) {
-    .container-elements .element-5,
-    .element-6 {
+    .container-elements .element-5 {
         display: none;
     }
 }

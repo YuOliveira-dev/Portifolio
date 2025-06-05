@@ -26,10 +26,11 @@
 
 .container-text section p {
   font-size: 22px;
-  font-weight: 300;
-  color: white;
+  font-weight: 400;
+  color: rgb(224, 224, 224);
+  line-height: 1.5;
 
-  max-width: 662px;
+  max-width: 690px;
   width: 100%;
   height: auto;
 }
@@ -49,7 +50,7 @@
   padding: 64px 44px;
   margin-left: auto;
   width: 100%;
-  max-width: 662px;
+  max-width: 690px;
 }
 
 
