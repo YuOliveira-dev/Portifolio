@@ -12,47 +12,37 @@ const Projects: React.FC = () => {
       title: "Redesign Itaú",
       image: "./images/projects/Thumb-itau.webp",
       category: "UX/UI",
-      path: "redesign-itau"
-      
-     
+      path: "redesign-itau",
     },
     {
       id: "2",
       title: "Pix Na SumUp",
       image: "./images/projects/SumUp.webp",
       category: "UX/UI",
-      path: "pix-na-sumUp"
-      
-      
+      path: "pix-na-sumUp",
     },
-     {
+    {
       id: "3",
-      title: "Qualquer coisa",
-      image: "./images/projects/SumUp.webp",
-      category: "UX/UI",
-      path: "/"
-     
-       
-  },
-  {
+      title: "Login e Cadastro em PHP",
+      image: "./images/projects/thumb-php.png",
+      category: "Desenvolvimento",
+      path: "system-in-php",
+    },
+    {
       id: "4",
-      title: "Qualquer coisa",
-      image: "./images/projects/SumUp.webp",
-      category: "UX/UI",
-      path: "/"
-      
-      
-  },
+      title: "Ecommerce My Shop",
+      image: "./images/projects/thumb-My-shop.png",
+      category: "Desenvolvimento",
+      path: "My-Shop",
+    },
   ];
 
- 
   const filteredProjects =
     selectedCategory === "todos"
       ? projects
       : projects.filter((project) => project.category === selectedCategory);
 
   return (
-    
     <section className="projects-section">
       <h2 className="projects-title">Projetos</h2>
 

@@ -1,11 +1,10 @@
-.container-elements{  
+.container-elements {
   position: relative;
   width: 100%;
   height: 100vh;
-
 }
 
-.container-elements .element-1{  
+.container-elements .element-1 {
   position: absolute;
   top: 920px;
   right: 10px;
@@ -23,7 +22,6 @@
 }
 
 .container-elements .element-3 {
-
   position: absolute;
   top: 2170px;
   right: 60px;
@@ -41,7 +39,6 @@
 }
 
 .container-elements .element-5 {
-
   position: absolute;
   top: 3470px;
   right: 1490px;
@@ -50,14 +47,13 @@
   margin: 0 auto;
 }
 
-
 @media (max-width: 1221px) {
-    .container-elements {
-        display: none;
-    }
+  .container-elements {
+    display: none;
+  }
 }
 @media (max-width: 1462px) {
-    .container-elements .element-5 {
-        display: none;
-    }
+  .container-elements .element-5 {
+    display: none;
+  }
 }

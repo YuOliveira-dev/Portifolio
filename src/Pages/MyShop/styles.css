@@ -1,4 +1,4 @@
-.containerProjectSumUp {
+.sec-b-m {
   font-family: "Montserrat";
   display: flex;
   flex-direction: column;
@@ -7,20 +7,18 @@
   background-image: url("../public/images/background/background-pages.webp");
   background-size: cover;
 }
-
-.thumSumUp {
+.img-t-m {
   display: flex;
   width: 100%;
   max-width: 920px;
   height: 100%;
   max-height: 640px;
   gap: 16px;
-  padding: 32px;
+  padding: 12px;
   object-fit: contain;
+  box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.308);
 }
-
-.sec-1-sumup,
-.sec-2-sumup {
+.s-b-m {
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -29,20 +27,17 @@
   background: none;
   margin: 24px;
 }
-
-.t-1-sumup,
-.t-2-sumup {
+.t-b-m {
   font-size: 38px;
-  color: #0150b8;
-  text-shadow: -2px 3px 8px #000000a9;
+  color: #ffffff;
+  text-shadow: -1px 1px 8px #0003c9;
   background: none;
   margin-left: 24px;
   margin-right: 24px;
   font-weight: 600;
 }
 
-.p-1-sumup,
-.p-2-sumup {
+.p-b-m {
   font-size: 24px;
   color: white;
   background: none;
@@ -54,28 +49,16 @@
   line-height: 1.5;
 }
 
-.sectionTextsSumUp {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  max-width: 920px;
-  height: 100%;
-  align-items: center;
-  gap: 80px;
-  background: none;
-  margin: 24px;
-}
-
-.btn-to-f-sum-up {
-  text-decoration: none;
+.btn-to-f-my-shop {
   color: white;
+  text-decoration: none;
   font-size: 24px;
-  margin: 20px;
+  font-weight: 400;
 }
 
-.spn-to-f-sum-up {
+.sp-t-my-shop {
+  color: #ffffff;
+  text-shadow: 5px 1px 12px #0003c9;
+  font-weight: 700;
   text-decoration: underline;
-  color: #008cff;
-  text-shadow: 5px 1px 12px rgba(0, 0, 0, 0.486);
-  font-weight: 600;
 }

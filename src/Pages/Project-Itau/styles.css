@@ -1,89 +1,103 @@
-
-
 .containerProjectItau {
-    font-family: 'Montserrat';
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    background-image: url('../images/background/background-pages.webp');
-    background-size: cover;
-    
+  font-family: "Montserrat";
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-image: url("../../images/background/background-pages.webp");
+  background-size: cover;
 }
 
-.containerProjectItau .project-images{
-    display: flex;
-    width: 100%;
-    max-width: 920px;
-    height: 100%;
-    max-height: 640px;
-    gap: 16px;
-    padding: 32px;
+.containerProjectItau .project-images {
+  display: flex;
+  width: 100%;
+  max-width: 920px;
+  height: 100%;
+  max-height: 640px;
+  padding: 20px 24px;
 }
-.containerProjectItau .project-images .project-image{
-    width: 100%;
-    max-width: 320px;
-    padding: 12px;
-    overflow: hidden;
-    object-fit: cover;
-    
+.containerProjectItau .project-images .project-image {
+  width: 100%;
+  max-width: 320px;
+  height: 100%;
+  object-fit: contain;
 }
 
 .containerProjectItau .textsContainer {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    max-width: 880px;
-    height: 100%;
-    align-items: center;
-    gap: 80px;
-    background: none;
-    margin: 24px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 880px;
+  height: 100%;
+  align-items: center;
+  gap: 80px;
+  background: none;
+  margin: 24px;
 }
 
-.containerProjectItau .textsContainer .title-project-text{
-    font-size: 38px;
-    color: #EC7000;
-    text-shadow: -5px 5px 8px #00000070;
-    background: none;
-    margin-left: 24px;
-    margin-right: 24px;
-    font-weight: 600;
+.containerProjectItau .textsContainer .title-project-text {
+  font-size: 38px;
+  color: #ec7000;
+  text-shadow: -5px 5px 8px #00000070;
+  background: none;
+  margin-left: 24px;
+  margin-right: 24px;
+  font-weight: 600;
 }
 
-.containerProjectItau .textsContainer .paragraph-project-text{
-    font-size: 24px;
-    color: white;
-    background: none;
-    margin-left: 24px;
-    margin-right: 24px;
-    font-weight: 300;
-    height: 100%;
-    
+.containerProjectItau .textsContainer .paragraph-project-text {
+  font-size: 24px;
+  color: white;
+  background: none;
+  margin-left: 24px;
+  margin-right: 24px;
+  font-weight: 200;
+  height: 100%;
+  line-height: 1.5;
 }
 
-.containerProjectItau .textsContainer .text1{
-    background: none;
+.textsContainer .text1 {
+  background: none;
 }
 
-.containerProjectItau .textsContainer .text2{
-    background: none;
+.textsContainer .text2 {
+  background: none;
 }
 
-.containerProjectItau .link-to-article{
-    text-decoration: none;
-    background: none;
-    color: #EC7000;
-    margin: 40px;
-    font-size: 24px;
-    font-weight: 400;
-    
+.link-to-article {
+  text-decoration: none;
+  background: none;
+  color: #ffffff;
+  margin: 24px;
+  font-size: 24px;
+  font-weight: 300;
 }
 
-.containerProjectItau .link-to-article .span-article{
-    text-decoration: underline;
-    font-weight: 600;
-    background: none;
-    
-    
+.span-article {
+  text-decoration: underline;
+  font-weight: 600;
+  background: none;
+  color: #ec7000;
+}
+
+.link-to-article-2 {
+  text-decoration: none;
+  background: none;
+  font-size: 24px;
+  font-weight: 300;
+  color: white;
+}
+.span-article-2 {
+  text-decoration: underline;
+  font-weight: 600;
+  background: none;
+  color: #ec7000;
+}
+
+.links-p-itau {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  margin: 38px;
 }

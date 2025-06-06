@@ -28,7 +28,9 @@ function ContactMe() {
         reset();
       }
     } catch (error) {
-      toast.error("Erro no envio do formulário, revise seus dados e tente novamente");
+      toast.error(
+        "Erro no envio do formulário, revise seus dados e tente novamente"
+      );
     }
   };
 

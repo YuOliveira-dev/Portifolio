@@ -19,7 +19,6 @@
   color: white;
   text-align: left;
   padding: 32px;
-  
 }
 
 .section-contact h1 {
@@ -39,8 +38,6 @@
   width: 100%;
   max-width: 470px;
   font-family: "Montserrat";
-  
-  
 }
 
 #form-area textarea,
@@ -56,20 +53,20 @@
   margin-bottom: 20px;
   border: none;
   resize: none;
-  
-  box-shadow: 0px 0px 5px 2px rgba(255, 0, 0, 0.089);;
+
+  box-shadow: 0px 0px 5px 2px rgba(255, 0, 0, 0.089);
 }
 #form-area .btn-submit {
   background-color: #ff0004;
-  font-size: 17px ;
+  font-size: 17px;
   font-weight: 500;
   color: white;
   cursor: pointer;
 }
-#form-area .btn-submit:hover{
-  background-color: #ff0004ab
+#form-area .btn-submit:hover {
+  background-color: #ff0004ab;
 }
-#form-area textarea{
+#form-area textarea {
   height: 120px;
 }
 
@@ -81,7 +78,7 @@
   border: none;
 }
 
- .formContact .inputerror {
+.formContact .inputerror {
   padding: 8px;
   width: 100%;
   max-width: 470px;
@@ -89,8 +86,6 @@
   background-color: #ffe6e6;
   color: red;
 }
-
-
 
 @media (max-width: 768px) {
   .section-contact {
@@ -104,13 +99,11 @@
     padding: 16px;
   }
 
-  #form-area  {
-    
+  #form-area {
     margin: 0px;
   }
   #form-area input,
   #form-area textarea {
     width: 440px;
   }
-    
 }

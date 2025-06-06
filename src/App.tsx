@@ -17,8 +17,8 @@ const App: React.FC = () => {
       <div style={{ position: "absolute", width: "100%", height: "100vh" }}>
         <FloatingElements />
       </div>
-        <Header />
-      
+      <Header />
+
       <Element name="secao1">
         <Projects />
       </Element>

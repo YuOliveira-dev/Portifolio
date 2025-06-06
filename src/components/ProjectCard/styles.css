@@ -1,56 +1,58 @@
 .project-card {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin-top: 8px;
-    background-color: #fff;
-    border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-    transition: transform 0.5s ease;
-    width: 100%;
-    max-width: 420px;
-  }
-  
-  .project-card:hover {
-    transform: translateY(-10px);
-  }
-  
-  .project-image {
-    width: 100%;
-    object-fit: cover;
-  }
-  
-  .project-info {
-    display: flex;
-    justify-content: space-between;
-    gap: 8px;
-    padding: 16px;
-    text-align: center;
-  }
-  
-  .project-title {
-    font-family: "Inconsolata", Courier, monospace;
-    
-    font-size: 20px;
-    font-weight: 500;
-    margin-bottom: 8px;
-  }
-  
-  .btn-to-page {
-    font-family: "Montserrat";
-    font-size: 12px;
-    text-decoration: none;
-    align-items: center;
-    width: 92px;
-    padding: 8px;
-    border-radius: 8px;
-    height: 32px;
-    background-color: #ff000470;
-    color: white;
-  }
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 8px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.5s ease;
+  width: 100%;
+  max-width: 420px;
+}
 
-  .btn-to-page:hover{
-    background-color: #ff0004;
-    transition: 0.9s;
-  }
+.project-card:hover {
+  transform: translateY(-10px);
+}
+
+.project-image {
+  width: 100%;
+  object-fit: cover;
+  max-width: 420px;
+  max-height: 248px;
+}
+
+.project-info {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 16px;
+  text-align: center;
+}
+
+.project-title {
+  font-family: "Inconsolata", Courier, monospace;
+
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.btn-to-page {
+  font-family: "Montserrat";
+  font-size: 12px;
+  text-decoration: none;
+  align-items: center;
+  width: 92px;
+  padding: 8px;
+  border-radius: 8px;
+  height: 32px;
+  background-color: #ff000470;
+  color: white;
+}
+
+.btn-to-page:hover {
+  background-color: #ff0004;
+  transition: 0.9s;
+}
