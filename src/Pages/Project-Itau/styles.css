@@ -73,13 +73,11 @@
   text-align: center;
   margin-top: 20px;
   display: flex;
-  flex-direction: column;
   gap: 12px;
-  max-width: 320px;
+  max-width: 590px;
 }
 .s-lk-itau__btn {
-   background-color: transparent;
-  border: 2px solid #4e9aff;
+  background-color: #ec7000;
   color: #fff;
   font-size: 1.3rem;
   font-weight: 600;
@@ -92,7 +90,7 @@
   width: 100%;
 }
 .s-lk-itau__btn:hover {
-  background-color: #ec7000;
+  background-color: #8f4300;
 }
 
 @media (max-width: 768px) {

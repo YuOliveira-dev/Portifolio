@@ -75,10 +75,8 @@
 }
 
 .s-lk-sumup__btn {
-  display: inline-block;
   padding: 10px 20px;
-  background-color: transparent;
-  border: 1px solid #008cff;
+  background-color: #008cff;
   color: #ffffff;
   font-weight: 600;
   text-decoration: none;
@@ -87,7 +85,7 @@
 }
 
 .s-lk-sumup__btn:hover {
-  background-color: #00aaff;
+  
   color: #fff;
 }
 

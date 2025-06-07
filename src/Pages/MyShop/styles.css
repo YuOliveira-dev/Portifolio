@@ -83,8 +83,7 @@
 }
 
 .s-p-MyShop__btn {
-  background-color: transparent;
-  border: 2px solid #4e9aff;
+  background-color: #4e9aff;
   color: #fff;
   font-size: 1.3rem;
   font-weight: 600;
@@ -98,7 +97,7 @@
 }
 
 .s-p-MyShop__btn:hover {
-  background-color: #4e9aff;
+  background-color: #006bf7;
   color: #fff;
 }
 
