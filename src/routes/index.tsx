@@ -4,6 +4,7 @@ import App from "../App";
 import PixNaSumUp from "../Pages/Project-SumUp/PixNaSumUp";
 import SystemInPhp from "../Pages/SystemInPhP/SystemInPhp";
 import MyShop from "../Pages/MyShop/MyShop";
+import PortifolioProject from "../Pages/PortifolioProject/PortifolioProject";
 
 const router = createBrowserRouter([
   {
@@ -23,9 +24,13 @@ const router = createBrowserRouter([
     element: <SystemInPhp />,
   },
   {
-    path: "/projects/My-Shop",
+    path: "/projects/my-Shop",
     element: <MyShop />,
   },
+  {
+    path: "/projects/Portifolio-Project",
+    element: <PortifolioProject />
+  }
 ]);
 
 export default router;

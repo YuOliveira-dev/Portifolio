@@ -1,9 +1,8 @@
 .nav-container-to-page {
+  position: relative;
   width: 100%;
   max-width: 990px;
   max-height: 80px;
-  padding: 24px;
-  margin-bottom: 80px;
 }
 
 .nav-container-to-page .navbar-desk-to-page {

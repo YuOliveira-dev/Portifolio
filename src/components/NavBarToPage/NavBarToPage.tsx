@@ -1,6 +1,5 @@
 import "./styles.css";
 import { Link } from "react-router-dom";
-import { IoMdHome } from "react-icons/io";
 
 function NavBarToPage() {
   return (
@@ -13,7 +12,6 @@ function NavBarToPage() {
           <ul>
             <Link className="button-nav-to-page" to={"/"}>
               Home
-              <IoMdHome size={28} />
             </Link>
           </ul>
         </div>

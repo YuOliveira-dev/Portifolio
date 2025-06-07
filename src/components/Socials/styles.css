@@ -37,3 +37,9 @@ li {
   margin: 0 auto;
   width: 44px;
 }
+
+.icon-social{
+  width: 48px;
+  height: 48px;
+  opacity: 70%;
+}

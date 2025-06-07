@@ -3,87 +3,103 @@ import "./styles.css";
 
 function ProjetoItau() {
   return (
-    <div className="containerProjectItau">
-      <NavBarToPage />
+    <section className="c-p-itau">
+      <div className="c-p-itau__wrapper">
 
-      <section className="project-images">
-        <img
-          src="../images/screenProjects/itau/Login.png"
-          alt="Layout Image"
-          className="project-image"
-        />
-        <img
-          src="../images/screenProjects/itau/Home.png"
-          alt="Layout Image"
-          className="project-image"
-        />
-        <img
-          src="../images/screenProjects/itau/ScreenPix.png"
-          alt="Layout Image"
-          className="project-image"
-        />
-      </section>
-      <div className="textsContainer">
-        <div className="text1">
-          <h2 className="title-project-text">
-            {" "}
-            Diagnóstico e Pesquisa de Usuário
-          </h2>
-          <br />
-          <p className="paragraph-project-text">
-            O projeto foi desenvolvido como parte do curso de{" "}
-            <strong>UX/UI Design da EBAC, </strong> com o objetivo de melhorar a{" "}
-            <strong>experiência do usuário</strong> no aplicativo do Banco Itaú.
-            Inicialmente, foram analisadas reclamações de clientes nas redes
-            sociais, especialmente sobre instabilidades e dificuldades
-            relacionadas ao PIX. Para entender melhor essas dores, foi aplicado
-            um questionário presencial focado em hábitos de uso, dificuldades
-            encontradas e percepção sobre o atendimento. A pesquisa revelou que,
-            apesar de considerarem o app intuitivo, os usuários relatavam
-            lentidão, bugs e dificuldades em ajustar limites e localizar opções
-            de ajuda. Esses <strong>dados </strong> fundamentaram as decisões de
-            design e melhorias propostas.
-          </p>
+        <NavBarToPage />
+
+        <div className="s-t-itau">
+          <img
+            src="../images/screenProjects/itau/Login.png"
+            alt="Login do App Itaú"
+            className="s-t-itau__img"
+          />
+          <img
+            src="../images/screenProjects/itau/Home.png"
+            alt="Tela Inicial do App Itaú"
+            className="s-t-itau__img"
+          />
+          <img
+            src="../images/screenProjects/itau/ScreenPix.png"
+            alt="Tela Pix App Itaú"
+            className="s-t-itau__img"
+          />
         </div>
-        <div className="text2">
-          <h2 className="title-project-text">Ideação e Soluções Propostas</h2>
-          <br />
-          <p className="paragraph-project-text">
-            A partir dos <strong>dados</strong> coletados, foi criada uma
-            persona com base nos <strong>usuários </strong>reais e elaborado um
-            mapa de empatia para entender suas motivações, dores e expectativas.
-            Em seguida, a jornada do usuário foi estruturada para identificar
-            pontos de fricção no uso do app. Quatro soluções foram propostas:
-            uma interface mais limpa com foco no PIX, um FAQ interativo com
-            opção de contato direto com funcionários, ajuste de limite
-            facilitado e extrato bancário mais detalhado. Protótipos de baixa
-            fidelidade foram construídos no Figma e testados com usuários, que
-            aprovaram a nova abordagem. A identidade visual foi baseada na marca
-            do Itaú, com uso equilibrado das cores através da técnica 60/30/10,
-            reforçando a familiaridade e confiança do <strong>usuário </strong>
-            com o ambiente digital.
+
+        <header className="s-h-itau">
+          <h1 className="s-h-itau__title">
+            Projeto UX – Diagnóstico e Redesign do App Itaú
+          </h1>
+          <p className="s-h-itau__desc">
+            Projeto prático focado em pesquisa com usuários, diagnósticos de usabilidade e redesign de telas baseado em dados reais. Desenvolvido como parte do curso de UX/UI Design da EBAC.
           </p>
+        </header>
+
+        <section className="s-o-itau">
+          <h2 className="s-o-itau__title">Visão Geral</h2>
+          <p className="s-o-itau__text">
+            O objetivo foi entender as principais dores dos usuários com o app do Banco Itaú, especialmente em relação ao uso do <strong>PIX</strong> e atendimento. A partir de análises em redes sociais e questionários presenciais, identificamos <strong>problemas recorrentes</strong> como lentidão, bugs e dificuldade em encontrar recursos. Esses dados serviram como base para o processo de redesign.
+          </p>
+        </section>
+
+        <section className="s-t-pj-itau">
+          <h2 className="s-t-pj-itau__title">Tecnologias Utilizadas</h2>
+          <ul className="s-t-pj-itau__list">
+            <li><strong>Figma:</strong> prototipagem e testes de usabilidade com usuários reais.</li>
+            <li><strong>UX Research:</strong> análise de redes sociais, aplicação de formulários e mapeamento da jornada.</li>
+            <li><strong>Empathy Map & Persona:</strong> construção de empatia e identificação de expectativas reais.</li>
+            <li><strong>Técnica 60/30/10:</strong> utilizada para balancear a identidade visual da marca.</li>
+          </ul>
+        </section>
+
+        <section className="s-s-itau">
+          <h2 className="s-s-itau__title">Soluções Propostas</h2>
+          <ul className="s-s-itau__list">
+            <li>Interface mais limpa e otimizada com foco no PIX.</li>
+            <li>FAQ interativo com botão de contato direto com atendente.</li>
+            <li>Ajuste de limite em apenas um clique.</li>
+            <li>Extrato detalhado e mais acessível.</li>
+          </ul>
+        </section>
+
+        <section className="s-l-itau">
+          <h2 className="s-l-itau__title">Aprendizados & Insights</h2>
+          <ul className="s-l-itau__list">
+            <li>Importância da escuta ativa com usuários reais.</li>
+            <li>Criação de soluções baseadas em dados e evidências.</li>
+            <li>Validação de protótipos com usuários no início do processo.</li>
+            <li>Equilíbrio entre identidade visual e usabilidade.</li>
+          </ul>
+        </section>
+
+        <section className="s-r-itau">
+          <h2 className="s-r-itau__title">Resultado Final</h2>
+          <p className="s-r-itau__text">
+            O projeto demonstrou como a <strong>pesquisa centrada no usuário</strong> pode gerar soluções reais para problemas de usabilidade. O redesign obteve feedbacks positivos e mostrou que, com mudanças simples e empáticas, é possível melhorar significativamente a experiência digital.
+          </p>
+        </section>
+
+        <div className="s-lk-itau">
+          <a
+            href="https://medium.com/@carvalhoyc/projeto-de-parceria-itaú-ebac-c8a48dada439"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="s-lk-itau__btn"
+          >
+            Leia o artigo completo
+          </a>
+          <a
+            href="https://www.figma.com/design/Z9FC2nbWUfxNcaMaZjNiEr/Projeto-itau?node-id=0-1&t=BPHaMTlzsv1XaTmO-1"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="s-lk-itau__btn s-lk-itau__btn--alt"
+          >
+            Ver no Figma
+          </a>
         </div>
+
       </div>
-      <div className="links-p-itau">
-        <a
-          target="_blank"
-          className="link-to-article"
-          href="https://medium.com/@carvalhoyc/projeto-de-parceria-itaú-ebac-c8a48dada439"
-        >
-          Se interessou pelo conteúdo ?{" "}
-          <span className="span-article">leia o artigo completo!</span>
-        </a>
-        <a
-          target="_blank"
-          className="link-to-article-2"
-          href="https://www.figma.com/design/Z9FC2nbWUfxNcaMaZjNiEr/Projeto-itau?node-id=0-1&t=BPHaMTlzsv1XaTmO-1"
-        >
-          Veja o projeto completo no{" "}
-          <span className="span-article-2">Figma!</span>
-        </a>
-      </div>
-    </div>
+    </section>
   );
 }
 

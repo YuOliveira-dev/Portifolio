@@ -1,6 +1,5 @@
 import { useState } from "react";
 import "./styles.css";
-import { IoCaretBackCircle } from "react-icons/io5";
 import { Link } from "react-scroll";
 
 function BackToTop() {
@@ -24,10 +23,7 @@ function BackToTop() {
         className="buttonBackToTop"
         aria-label="Botão para retornar ao topo da página"
       >
-        <IoCaretBackCircle
-          size={48}
-          style={{ transform: "rotate(90deg)", color: "#ff000476" }}
-        />
+       <img src="./images/Arrow.svg" alt="icone do botão para retornar para o topo da página" />
       </Link>
 
       <h3 className={`isClosed${isHovering ? "No" : ""}`}>Volte ao início</h3>

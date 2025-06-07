@@ -33,8 +33,15 @@ const Projects: React.FC = () => {
       title: "Ecommerce My Shop",
       image: "./images/projects/thumb-My-shop.png",
       category: "Desenvolvimento",
-      path: "My-Shop",
+      path: "my-Shop",
     },
+    {
+       id: "5",
+      title: "Projeto do Portifólio",
+      image: "./images/projects/thumb-portifolio.jpg",
+      category: "Desenvolvimento",
+      path: "Portifolio-Project",
+    }
   ];
 
   const filteredProjects =
