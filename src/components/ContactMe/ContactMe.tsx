@@ -22,7 +22,7 @@ function ContactMe() {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(data),
       });
-      console.log(data)
+      
 
       if (response.ok) {
         toast.success("Dados enviados com sucesso");
