@@ -80,6 +80,13 @@ function PortifolioProject() {
           >
             Ver no GitHub
           </a>
+           <a
+            href="https://github.com/YuOliveira-dev/api-portifolio"
+            target="_blank"
+            className="s-lk-p__btn"
+          >
+            Veja a API no GitHub
+          </a>
         </div>
 
       </div>

@@ -17,11 +17,12 @@ function ContactMe() {
   } = useForm<FormData>();
   const onSubmit = async (data: FormData) => {
     try {
-      const response = await fetch("http://localhost:3001/api/contato", {
+      const response = await fetch("https://api-yudev-portifolio.onrender.com/api/contato", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(data),
       });
+      console.log(data)
 
       if (response.ok) {
         toast.success("Dados enviados com sucesso");
