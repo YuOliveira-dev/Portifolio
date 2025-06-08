@@ -1,6 +1,7 @@
 import { useForm } from "react-hook-form";
 import "./styles.css";
 import { toast, ToastContainer, Bounce } from "react-toastify";
+import { useState } from "react";
 
 function ContactMe() {
   interface FormData {
@@ -9,17 +10,26 @@ function ContactMe() {
     mensagem: string;
   }
 
+
   const {
     register,
     formState: { errors },
     handleSubmit,
     reset,
   } = useForm<FormData>();
+
+  const [isSending, setIsSending] = useState(false)
+
   const onSubmit = async (data: FormData) => {
+
+    if(isSending) return;
+    
+    setIsSending(true);
+
     try {
       const response = await fetch("https://api-yudev-portifolio.onrender.com/api/contato", {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
+        headers: { "Content-Type" : "application/json" },
         body: JSON.stringify(data),
       });
       
@@ -27,11 +37,16 @@ function ContactMe() {
       if (response.ok) {
         toast.success("Dados enviados com sucesso");
         reset();
+      } else {
+        toast.error("Erro ao enviar, Tente novamente mais tarde.")
       }
     } catch (error) {
       toast.error(
         "Erro no envio do formulário, revise seus dados e tente novamente"
       );
+    } finally {
+      setIsSending(false);
+      console.log(data)
     }
   };
 
@@ -94,7 +109,7 @@ function ContactMe() {
               rows={8}
               cols={35}
             ></textarea>
-            <input className="btn-submit" type="submit" value="Enviar" />
+            <input className={isSending ? "btn-submitDisabled" : "btn-submit"} type="submit" value={isSending ? "Enviando..." : 'Enviar'} disabled={isSending} />
           </fieldset>
         </form>
         <ToastContainer

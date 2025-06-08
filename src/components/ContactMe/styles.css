@@ -58,8 +58,8 @@
 }
 #form-area .btn-submit {
   background-color: #ff0004;
-  font-size: 17px;
-  font-weight: 500;
+  font-size: 19px;
+  font-weight: 600;
   color: white;
   cursor: pointer;
 }
@@ -68,6 +68,13 @@
 }
 #form-area textarea {
   height: 120px;
+}
+
+#form-area .btn-submitDisabled{
+  background-color: #770002;
+  font-weight: 600;
+  color: white;
+  cursor: none;
 }
 
 #form-area .formContact .form-itens {
