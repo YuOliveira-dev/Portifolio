@@ -53,11 +53,16 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    padding-left: 10px;
     text-align: center;
-    margin: 0 auto;
+    margin: 20px;
   }
   .container section img {
     transform: translate(5%, 30%);
   }
+  .container section p {
+  font-size: 18px;
+  font-weight: 400;
+  color: white;
+  line-height: 1.4;
+}
 }

@@ -70,8 +70,10 @@
 
 
 .s-lk-p {
+  flex: 1;
   text-align: center;
   margin-top: 20px;
+  flex-wrap: wrap;
 }
 .s-lk-p__btn {
   background-color: #ff0004;
@@ -82,7 +84,7 @@
   border-radius: 6px;
   transition: background-color 0.3s ease;
   box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.548);
-  margin: 12px;
+  margin: 8px;
 }
 .s-lk-p__btn:hover {
   background-color: #333;

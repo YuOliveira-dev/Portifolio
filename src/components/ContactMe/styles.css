@@ -99,11 +99,17 @@
     padding: 16px;
   }
 
-  #form-area {
-    margin: 0px;
-  }
   #form-area input,
   #form-area textarea {
-    width: 440px;
+    margin: 4px;
+    width: 315px;
   }
+  #form-area {
+  width: 100%;
+  max-width: 330px;
+
+}
+.formContact .inputerror {
+  max-width: 323px;
+}
 }

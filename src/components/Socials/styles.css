@@ -7,6 +7,7 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  object-fit: contain;
 
   width: 100%;
   max-width: 48px;
@@ -42,4 +43,22 @@ li {
   width: 48px;
   height: 48px;
   opacity: 70%;
+}
+
+@media (max-width: 768px) {
+   .social-container {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 440px;
+  margin: 0 auto;
+  top: 90%;
+  left: 0;
+  margin: 0 auto;
+   }
+   .social-container a {
+    display: inline;
+    max-width: 364px;
+   }
 }
