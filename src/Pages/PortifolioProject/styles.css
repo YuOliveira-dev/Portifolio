@@ -22,11 +22,12 @@
   max-height: 440px;
   object-fit: cover;
   border-radius: 12px;
+  margin-top: 40px;
 }
 
 
 .s-h-p {
-  text-align: center;
+  text-align: left;
 }
 .s-h-p__title {
   font-size: 2.5rem;

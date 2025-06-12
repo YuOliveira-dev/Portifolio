@@ -3,13 +3,13 @@
   flex-direction: column;
   justify-content: space-between;
   margin-top: 8px;
-  background-color: #fff;
   border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.575);
   overflow: hidden;
   transition: transform 0.5s ease;
   width: 100%;
   max-width: 420px;
+  
 }
 
 .project-card:hover {
@@ -24,7 +24,9 @@
 }
 
 .project-info {
+  background-color: #6e6e6e4f;
   display: flex;
+  align-items: center;
   justify-content: space-between;
   gap: 8px;
   padding: 16px;
@@ -33,9 +35,10 @@
 
 .project-title {
   font-family: "Inconsolata", Courier, monospace;
+  color: white;
 
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 600;
   margin-bottom: 8px;
 }
 
@@ -47,12 +50,21 @@
   width: 92px;
   padding: 8px;
   border-radius: 8px;
+  font-weight: 500;
   height: 32px;
   background-color: #ff000470;
   color: white;
+  box-shadow: 0px 0px 8px #ff0004;
 }
 
 .btn-to-page:hover {
   background-color: #ff0004;
-  transition: 0.9s;
+  transition:  0.9s;
+}
+
+@media (max-width: 768px) {
+  .project-title{
+    font-size: 1.1em;
+    
+  }
 }

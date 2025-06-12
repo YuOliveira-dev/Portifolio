@@ -28,7 +28,7 @@ function ProjetoItau() {
 
         <header className="s-h-itau">
           <h1 className="s-h-itau__title">
-            Projeto UX – Diagnóstico e Redesign do App Itaú
+            Diagnóstico e Redesign do App Itaú
           </h1>
           <p className="s-h-itau__desc">
             Projeto prático focado em pesquisa com usuários, diagnósticos de usabilidade e redesign de telas baseado em dados reais. Desenvolvido como parte do curso de UX/UI Design da EBAC.

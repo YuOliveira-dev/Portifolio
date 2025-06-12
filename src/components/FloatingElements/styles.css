@@ -52,8 +52,9 @@
     display: none;
   }
 }
-@media (max-width: 1462px) {
-  .container-elements .element-5 {
+@media (max-width: 1799px) {
+  .container-elements .element-5,
+  .element-2, .element-4 {
     display: none;
   }
 }

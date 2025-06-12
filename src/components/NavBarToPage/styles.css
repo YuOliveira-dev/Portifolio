@@ -1,20 +1,31 @@
 .nav-container-to-page {
-  position: relative;
-  width: 100%;
-  max-width: 990px;
-  max-height: 80px;
+ position: fixed;
+  display: flex;
+  align-items: center;
+  width: 101%;
+  height: 76px;
+  padding: 0 20px;
+  justify-content: space-between;
+  left: 50%;
+  transform: translate(-50%, -80%);
 }
 
 .nav-container-to-page .navbar-desk-to-page {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  width: 100%;
+  max-width: 960px;
+  margin: auto;
 }
 .nav-container-to-page .navbar-desk-to-page .button-nav-to-page {
-  display: flex;
-  align-items: center;
   font-size: 24px;
   font-family: "Montserrat";
   font-weight: 500;
   gap: 8px;
+}
+
+.nav-scrolled {
+  background-color: rgba(0, 0, 0, 0.85); 
+  transition: background-color 0.3s ease;
 }

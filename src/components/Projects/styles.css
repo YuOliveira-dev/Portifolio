@@ -8,6 +8,7 @@
 }
 
 .projects-list {
+  
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
@@ -18,11 +19,11 @@
   padding: 24px;
   display: flex;
   flex-direction: column;
-  margin: 0 auto;
   min-height: 70vh;
   width: 100%;
   max-width: 1400px;
   min-width: 48vw;
+  margin-bottom: 64px;
 }
 
 .projects-filters {

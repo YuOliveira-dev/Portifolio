@@ -10,14 +10,14 @@ const Projects: React.FC = () => {
     {
       id: "1",
       title: "Redesign Itaú",
-      image: "./images/projects/Thumb-itau.webp",
+      image: "./images/projects/Thumb-itau.png",
       category: "UX/UI",
       path: "redesign-itau",
     },
     {
       id: "2",
       title: "Pix Na SumUp",
-      image: "./images/projects/SumUp.webp",
+      image: "./images/projects/SumUp.png",
       category: "UX/UI",
       path: "pix-na-sumUp",
     },

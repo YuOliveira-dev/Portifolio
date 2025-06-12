@@ -5,7 +5,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 40px 20px 60px;
+  padding: 48px 20px 60px;
   font-family: 'Montserrat', sans-serif;
   color: #ddd;
   box-sizing: border-box;
@@ -16,7 +16,7 @@
   max-width: 920px;
   display: flex;
   justify-content: center;
-  margin-bottom: 40px;
+  margin: 40px 0;
 }
 
 .s-p-MyShop__image {
@@ -40,7 +40,7 @@
   font-size: 2.2rem;
   font-weight: 700;
   margin-bottom: 24px;
-  color: #fff;
+  color: #4e9aff;
   text-shadow: 0 0 8px rgba(0, 0, 0, 0.877);
 }
 

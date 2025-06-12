@@ -26,6 +26,7 @@
   height: auto;
   object-fit: contain;
   border-radius: 12px;
+  margin-top: 40px;
 }
 
 .s-h-sumup {
@@ -38,6 +39,7 @@
   color: #008cff;
   margin-bottom: 24px;
   text-shadow: -2px 3px 8px #000000a9;
+  text-align: left;
 }
 
 .s-h-sumup__desc {

@@ -18,7 +18,7 @@ function PixNaSumUp() {
 
         <header className="s-h-sumup">
           <h1 className="s-h-sumup__title">
-            Projeto UX – Interface de PIX para SumUp
+            Landing Page – Interface de PIX para SumUp
           </h1>
           <p className="s-h-sumup__desc">
             Landing page focada em arquitetura da informação, hierarquia visual e responsividade, aplicada como exercício prático durante o curso de UX/UI Design da EBAC.
