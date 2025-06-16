@@ -46,7 +46,7 @@ function ContactMe() {
       );
     } finally {
       setIsSending(false);
-      console.log(data)
+      
     }
   };
 
