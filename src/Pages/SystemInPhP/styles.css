@@ -39,7 +39,7 @@
 }
 
 .s-h-php__title {
-  font-size: 2rem;
+  font-size: 1.75rem;
   font-weight: 600;
   color: #4e9aff;
   text-shadow: -2px 3px 8px rgba(0, 0, 0, 0.66);
@@ -48,10 +48,11 @@
 
 .s-h-php__desc {
   font-size: 1.5rem; 
-  font-weight: 300;
+  font-weight: 400;
   line-height: 1.5;
   max-width: 860px;
   margin: 0 auto;
+  font-family: "Roboto";
 }
 
 .s-o-php {
@@ -69,8 +70,9 @@
 
 .s-o-php__text {
   font-size: 1.25rem;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 1.5;
+   font-family: "Roboto";
 }
 
 .s-lk-php {

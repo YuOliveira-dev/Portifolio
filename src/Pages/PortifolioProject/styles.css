@@ -35,7 +35,8 @@
   margin-bottom: 10px;
 }
 .s-h-p__desc {
-  font-size: 1.125rem;
+   font-family: "Roboto";
+  font-size: 1.25rem;
   color: #ffffff;
 }
 
@@ -53,7 +54,8 @@
 }
 .s-o-p__text,
 .s-r-p__text {
-  font-size: 1rem;
+   font-family: "Roboto";
+  font-size: 1.25rem;
   line-height: 1.6;
   color: #ffffff;
 }
@@ -62,19 +64,23 @@
 .s-t-pj__list,
 .s-s-p__list,
 .s-l-p__list {
+   font-family: "Roboto";
   list-style: disc;
   padding-left: 20px;
   color: #ffffff;
   line-height: 1.5;
+  font-size: 1.25rem;
   
 }
 
 
 .s-lk-p {
+  
   flex: 1;
   text-align: center;
   margin-top: 20px;
   flex-wrap: wrap;
+  
 }
 .s-lk-p__btn {
   background-color: #ff0004;

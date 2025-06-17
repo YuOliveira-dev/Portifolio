@@ -52,14 +52,14 @@
   border-radius: 8px;
   font-weight: 500;
   height: 32px;
-  background-color: #ff000470;
+  background-color: #ff0004;
   color: white;
-  box-shadow: 0px 0px 8px #ff0004;
+  box-shadow: 0px 0px 12px #ff000496;
 }
 
 .btn-to-page:hover {
-  background-color: #ff0004;
-  transition:  0.9s;
+  background-color: #ff000470;
+  transition:  0.5s;
 }
 
 @media (max-width: 768px) {

@@ -54,10 +54,10 @@ function ContactMe() {
     <section className="section-contact">
       <div id="container-texts">
         <h1>Entre em contato!</h1>
-        <h3>
+        <p>
           Entre em contato e vamos conversar, estou aberto a qualquer tipo de
           conversa, seja sobre trabalho ou alguma dica construtiva!
-        </h3>
+        </p>
       </div>
       <div id="form-area">
         <form className="formContact" onSubmit={handleSubmit(onSubmit)}>

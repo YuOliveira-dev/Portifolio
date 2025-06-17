@@ -42,6 +42,7 @@
   text-align: left;
 }
 .s-h-itau__desc {
+   font-family: "Roboto";
   font-size: 1.125rem;
   color: #ffffff;
   text-align: left;
@@ -52,7 +53,7 @@
 .s-s-itau__title,
 .s-l-itau__title,
 .s-r-itau__title {
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   font-weight: 600;
   margin-bottom: 10px;
   color: #ec7000;
@@ -60,7 +61,8 @@
 
 .s-o-itau__text,
 .s-r-itau__text {
-  font-size: 1rem;
+  font-family: "Roboto";
+  font-size: 1.25rem;
   color: #ffffff;
   line-height: 1.6;
 }
@@ -68,6 +70,8 @@
 .s-t-pj-itau__list,
 .s-s-itau__list,
 .s-l-itau__list {
+   font-family: "Roboto";
+   font-size: 1.25rem;
   list-style: disc;
   padding-left: 20px;
   color: #ffffff;
@@ -75,6 +79,7 @@
 }
 
 .s-lk-itau {
+  
   text-align: center;
   margin-top: 20px;
   display: flex;

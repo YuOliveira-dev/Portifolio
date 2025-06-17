@@ -7,9 +7,10 @@ import Socials from "./components/Socials/Socials";
 import FloatingElements from "./components/FloatingElements/FloatingElements";
 import { Element } from "react-scroll";
 
-import "./index.css";
 import BackToTop from "./components/ButtonBackToTop/BackToTop";
 import Carrosel from "./components/CarroselAuto/Carrosel";
+import Footer from "./components/Footer/Footer";
+import "./index.css";
 
 const App: React.FC = () => {
   return (
@@ -22,18 +23,19 @@ const App: React.FC = () => {
       <Element name="secao1">
         <Projects />
       </Element>
+      <Carrosel />
       <Element name="secao2">
         <AboutMe />
       </Element>
       <Element name="secao3">
         <Stacks />
       </Element>
-      <Carrosel />
       <Element name="secao4">
         <ContactMe />
       </Element>
       <Socials />
       <BackToTop />
+      <Footer />
     </div>
   );
 };

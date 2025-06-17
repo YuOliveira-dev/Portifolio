@@ -1,0 +1,40 @@
+.footer {
+  color: #fff;
+  padding: 24px 16px;
+  text-align: center;
+  font-family: 'Roboto';
+    max-width: 960px;
+  width: 100%;
+  margin-top: 40px;
+  
+}
+
+.footer-content {
+
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 8px;
+}
+
+.footer-version {
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+.footer-link {
+  color: #fff;
+  text-decoration: underline;
+  font-weight: bold;
+  transition: opacity 0.3s ease;
+}
+
+.footer-link:hover {
+  opacity: 0.8;
+}
+
+.footer-creditos {
+  font-size: 16px;
+  margin-top: 4px;
+}

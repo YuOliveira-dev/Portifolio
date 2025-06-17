@@ -9,7 +9,7 @@
   max-width: 1200px;
   margin: 0 auto;
   padding: 40px 20px;
-  min-height: 90vh;
+  
 }
 
 #container-texts {
@@ -29,9 +29,10 @@
   text-shadow: -5px 2px 7px #ff000421;
 }
 
-.section-contact h3 {
+.section-contact p {
+  font-family: "Roboto";
   font-size: 24px;
-  font-weight: 200;
+  font-weight: 400;
 }
 
 #form-area {
