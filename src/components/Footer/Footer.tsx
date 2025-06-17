@@ -14,7 +14,7 @@ const Footer = () => {
           Baixar currículo
         </a>
         <p className="footer-creditos">
-          Desenvolvido por <strong>Yuri Carvalho</strong> • Desenvolvedor Front-End
+          Desenvolvido por <strong>Yuri Carvalho</strong> • Desenvolvedor FullStack
         </p>
       </div>
     </footer>
