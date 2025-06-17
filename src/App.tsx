@@ -8,7 +8,7 @@ import FloatingElements from "./components/FloatingElements/FloatingElements";
 import { Element } from "react-scroll";
 
 import BackToTop from "./components/ButtonBackToTop/BackToTop";
-import Carrosel from "./components/CarroselAuto/Carrosel";
+// import Carrosel from "./components/CarroselAuto/Carrosel";
 import Footer from "./components/Footer/Footer";
 import "./index.css";
 
@@ -23,7 +23,7 @@ const App: React.FC = () => {
       <Element name="secao1">
         <Projects />
       </Element>
-      <Carrosel />
+      {/* <Carrosel /> */}
       <Element name="secao2">
         <AboutMe />
       </Element>
