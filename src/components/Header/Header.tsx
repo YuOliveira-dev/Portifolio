@@ -26,7 +26,7 @@ function Header() {
         <div className="texts">
           <div className="txt-animation">Olá, eu sou o Yuri ✌</div>
           <h1 className="second-text">Designer e desenvolvedor</h1>
-          <h2 className="third-text">FullStack em constante aprendizado!</h2>
+          <h2 className="third-text">Full-Stack em constante aprendizado!</h2>
           <Link href="#" to="secao4" smooth={true} duration={500}>
             <button
               onClick={() => {
